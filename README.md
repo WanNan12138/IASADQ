@@ -1,10 +1,12 @@
 # IASADQ
 
-[![DOI](https://zenodo.org/badge/1238913846.svg)](https://doi.org/10.5281/zenodo.20236367)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20236367-blue)](https://doi.org/10.5281/zenodo.20236367)
 
 Instance-aware Smooth Sharpness Adaptive Quantization.
 
-This project reconstructs the merged quantization idea discussed in the thesis on instance-aware dynamic quantization and smooth loss sharpness.
+This repository contains part of the code and usage documentation related to the manuscript **"Instance-Aware and Sharpness-Aware Dynamic Quantization for Efficient Edge Visual Computing"**, submitted to *The Visual Computer*.
+
+If you use this repository, the implemented methods, or the experimental settings in your research, please cite the corresponding manuscript once it becomes available.
 
 ## Core Ideas
 
@@ -34,8 +36,8 @@ For ImageNet, the expected folder structure is:
 
 ```text
 path/to/imagenet/
-├── train/
-└── val/
+|-- train/
+`-- val/
 ```
 
 ## Supported Models
