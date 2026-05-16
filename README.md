@@ -1,5 +1,7 @@
 # IASADQ
 
+[![DOI](https://zenodo.org/badge/1238913846.svg)](https://doi.org/10.5281/zenodo.20236367)
+
 Instance-aware Smooth Sharpness Adaptive Quantization.
 
 This project reconstructs the merged quantization idea discussed in the thesis on instance-aware dynamic quantization and smooth loss sharpness.
@@ -20,11 +22,21 @@ This project reconstructs the merged quantization idea discussed in the thesis o
 - CIFAR-100 pickle format
 - ImageNet `train/val` folder format
 
-Local dataset paths used in this project:
+Dataset paths should be specified by the user through `--data-dir`.
 
-- `D:/github/dataset/cifar-10-python`
-- `D:/github/dataset/cifar-100-python`
-- `D:/github/dataset/imagenet`
+Example dataset layouts:
+
+- `path/to/cifar-10-python`
+- `path/to/cifar-100-python`
+- `path/to/imagenet`
+
+For ImageNet, the expected folder structure is:
+
+```text
+path/to/imagenet/
+├── train/
+└── val/
+```
 
 ## Supported Models
 
@@ -72,7 +84,7 @@ bash scripts/run/run_imagenet_resnet50_w4a4.sh
 ```bash
 python train.py \
   --dataset cifar10 \
-  --data-dir D:/github/dataset/cifar-10-python \
+  --data-dir path/to/cifar-10-python \
   --network resnet20 \
   --num-classes 10 \
   --image-size 32 \
