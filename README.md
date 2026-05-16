@@ -1,4 +1,4 @@
-# ISSAQ
+# IASADQ
 
 Instance-aware Smooth Sharpness Adaptive Quantization.
 
