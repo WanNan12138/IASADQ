@@ -4,7 +4,7 @@
 
 Instance-aware Smooth Sharpness Adaptive Quantization.
 
-This repository contains part of the code and usage documentation related to the manuscript **"Instance-Aware and Sharpness-Aware Dynamic Quantization for Efficient Edge Visual Computing"**, submitted to *The Visual Computer*.
+This repository contains part of the code and usage documentation associated with the manuscript **"Instance- and Sharpness-Aware Dynamic Quantization for Efficient Edge Visual Inference"**, submitted to *Signal, Image and Video Processing*.
 
 If you use this repository, the implemented methods, or the experimental settings in your research, please cite the corresponding manuscript once it becomes available.
 
